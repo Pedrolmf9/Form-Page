@@ -1,31 +1,37 @@
 *{
     margin: 0;
 }
+body{
+    background-color: rgb(98, 117, 156);
+}
 .container{
     display: flex;
 }
 .side-container{
     position: relative;
-    width: 40vw;
-    height: 100%;
+    width: auto;
+    height: 100vh;
 }
 .side-image{
     position: absolute;
-    width: 100%;
+    width: 70vh;
+    height: 100vh;
     z-index: -1;
 }
 .side-body{
-    background-color: black;
-    opacity: 0.8;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 70vh;
     justify-content: center;
     align-items: center;
     justify-items: center;
     text-align: center;
     position: relative;
-    color: white;
     top: 30vh;
     text-align: center;
-    font-size: 3em;
-    font-family: roboto;
+}
+.side-body h1{
+    color:rgb(192, 118, 167);
+    font-size: 4em;
+    padding: 14px;
+    font-family: 'Alpha Men', sans-serif;
 }
