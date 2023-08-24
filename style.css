@@ -4,11 +4,9 @@ body{
     flex-direction: row;
     background-color: rgb(40, 46, 59);
     height: 100vh;
-    width: 130vh;
     overflow: hidden;
 }
 .side-container{
-    width: 100vh;
     height: 100vh;
 }
 .side-image{
@@ -52,10 +50,8 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 32px;
-    width: 130vh;
 }
 form{
-    width: 130vh;
 }
 .form{
     padding-left: 12px;
@@ -65,7 +61,6 @@ form{
     gap: 20px; 
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 140vh;
     background-color: #0000003d;
     box-shadow: rgba(201, 121, 174, 0.445) 0px 5px, rgba(238, 123, 196, 0.3) 0px 10px, rgba(155, 78, 126, 0.2) 0px 15px, rgba(230, 96, 181, 0.1) 4px 0px 20px, rgba(240, 46, 170, 0.05) 4px 0px 25px;
 }
