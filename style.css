@@ -65,6 +65,7 @@ body{
     background-color: #0000003d;
     box-shadow: rgba(201, 121, 174, 0.445) 0px 5px, rgba(238, 123, 196, 0.3) 0px 10px, rgba(155, 78, 126, 0.2) 0px 15px, rgba(230, 96, 181, 0.1) 4px 0px 20px, rgba(240, 46, 170, 0.05) 4px 0px 25px;
 }
+
 .input{
     display: flex;
     flex-flow: column wrap;
@@ -92,6 +93,9 @@ input:focus-visible{
     background-color: #3c00ff0c;
 
 }
+.invalid, .invalid:focus-visible{
+    border: 2px solid #fcabab;
+}
 label, h3, p{
     color: rgb(204, 202, 202);
     font-family: sans-serif;
@@ -114,4 +118,7 @@ button:hover{
 }
 .main-container h3, button, p{
     margin-left: 18px;
+}
+.warning{
+    color: #f08585;
 }
